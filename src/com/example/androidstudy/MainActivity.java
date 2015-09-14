@@ -1,6 +1,7 @@
 package com.example.androidstudy;
 
 import com.example.layout.LayoutActivity;
+import com.example.layout.RelativeActivity;
 import com.example.phone.PhoneActivity;
 import com.example.phone.SmsActivity;
 
@@ -24,9 +25,11 @@ public class MainActivity extends Activity implements OnClickListener {
 		Button bt_phoneAct = (Button) this.findViewById(R.id.bt_phoneAct);
 		Button bt_smsAct = (Button) this.findViewById(R.id.bt_smsAct);
 		Button bt_layoutAct = (Button) this.findViewById(R.id.bt_layoutAct);
+		Button bt_relayoutAct = (Button) this.findViewById(R.id.bt_RelAct);
 		bt_phoneAct.setOnClickListener(this);
 		bt_smsAct.setOnClickListener(this);
 		bt_layoutAct.setOnClickListener(this);
+		bt_relayoutAct.setOnClickListener(this);
 	}
 
 	@Override
@@ -44,10 +47,16 @@ public class MainActivity extends Activity implements OnClickListener {
 			startActivity(intent2);
 			finish();
 			break;
+		case R.id.bt_RelAct:
+			Log.i(TAG, "bt_RelAct被点击");
+			Intent intent3 = new Intent(this, RelativeActivity.class);
+			startActivity(intent3);
+			finish();
+			break;
 		case R.id.bt_layoutAct:
 			Log.i(TAG, "bt_layoutAct被点击");
-			Intent intent3 = new Intent(this, LayoutActivity.class);
-			startActivity(intent3);
+			Intent intent4 = new Intent(this, LayoutActivity.class);
+			startActivity(intent4);
 			finish();
 			break;
 		default:

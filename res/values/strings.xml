@@ -7,5 +7,6 @@
     <string name="title_activity_phone">PhoneActivity</string>
     <string name="title_activity_sms">SmsActivity</string>
     <string name="title_activity_layout">LayoutActivity</string>
+    <string name="title_activity_relative">RelativeActivity</string>
 
 </resources>

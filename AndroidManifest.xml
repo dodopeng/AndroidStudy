@@ -37,6 +37,10 @@
             android:name="com.example.layout.LayoutActivity"
             android:label="@string/title_activity_layout" >
         </activity>
+        <activity
+            android:name="com.example.layout.RelativeActivity"
+            android:label="@string/title_activity_relative" >
+        </activity>
     </application>
 
 </manifest>

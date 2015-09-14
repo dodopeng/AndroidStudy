@@ -15,16 +15,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="拨打电话" />
-    <Button
+
+    <Button
         android:id="@+id/bt_smsAct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="发送短信" />
-    
-     <Button
+
+    <Button
         android:id="@+id/bt_layoutAct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="线性布局" />
+
+    <Button
+        android:id="@+id/bt_RelAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相对布局" />
 
 </LinearLayout>
