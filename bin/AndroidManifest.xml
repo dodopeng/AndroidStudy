@@ -10,6 +10,8 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -40,6 +42,14 @@
         <activity
             android:name="com.example.layout.RelativeActivity"
             android:label="@string/title_activity_relative" >
+        </activity>
+        <activity
+            android:name="com.example.io.RomActivity"
+            android:label="@string/title_activity_rom" >
+        </activity>
+        <activity
+            android:name="com.example.io.SDRomActivity"
+            android:label="@string/title_activity_sdrom" >
         </activity>
     </application>
 

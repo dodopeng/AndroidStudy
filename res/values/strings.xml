@@ -8,5 +8,7 @@
     <string name="title_activity_sms">SmsActivity</string>
     <string name="title_activity_layout">LayoutActivity</string>
     <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_rom">RomActivity</string>
+    <string name="title_activity_sdrom">SDRomActivity</string>
 
 </resources>

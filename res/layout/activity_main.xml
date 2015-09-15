@@ -34,4 +34,16 @@
         android:layout_height="wrap_content"
         android:text="相对布局" />
 
+    <Button
+        android:id="@+id/bt_RomAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部文件读写" />
+
+    <Button
+        android:id="@+id/bt_SDRomAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SD文件读写" />
+
 </LinearLayout>
